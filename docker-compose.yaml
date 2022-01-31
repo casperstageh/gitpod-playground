@@ -2,7 +2,7 @@ services:
   web:
     build: app
     ports: 
-      - '80:8080'
+      - '8080:80'
     volumes:
       - ./app:/var/www/html/
       

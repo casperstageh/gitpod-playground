@@ -1,6 +1,6 @@
 services:
   web:
-    build: app
+    build: .
     ports: 
       - '8080:80'
     volumes:

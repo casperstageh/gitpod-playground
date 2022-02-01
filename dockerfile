@@ -1,3 +1,3 @@
-FROM php:7.4-apache
+FROM gitpod/workspace-full
 
 RUN  apt-get update 

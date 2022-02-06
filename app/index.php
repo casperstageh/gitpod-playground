@@ -7,5 +7,5 @@ if ($mysqli -> connect_errno) {
   exit();
 }
 $name = isset($_GET['name']) ? $_GET['name'] : '';
-echo '<h1>Hej '.$name.' , Velkommen til EUX!</h1>'; 
+echo '<h1>Hej '.$name.' , Velkommen til Caspers EUX!</h1>'; 
 ?>
